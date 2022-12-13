@@ -47,7 +47,7 @@ const NavBar = () => {
               {navItems}
             </ul>
           </div>
-          <Link className=" normal-case text-2xl font-bold text-black">
+          <Link className=" normal-case lg:text-2xl font-bold text-black">
             Mahbuba Akhter
           </Link>
         </div>

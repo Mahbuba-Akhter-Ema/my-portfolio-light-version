@@ -9,18 +9,18 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import { Link } from "react-router-dom";
 
 const Slider = () => {
-    return (
-        <div>
+  return (
+    <div>
       <>
         <Swiper
+          navigation={false}
+          loop={true}
+          loopFillGroupWithBlank={true}
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
           }}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
@@ -820,12 +820,12 @@ const Slider = () => {
               </div>
             </div>
           </SwiperSlide>
-          
+
 
         </Swiper>
       </>
     </div>
-    );
+  );
 };
 
 export default Slider;

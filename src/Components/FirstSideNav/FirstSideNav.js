@@ -38,7 +38,7 @@ const FirstSideNav = () => {
       <div className="my-4 font-semibold p-5">
         <div className="flex justify-between">
           <p>Country: </p>
-          <p>Unite State</p>
+          <p>United State</p>
         </div>
         <div className="flex justify-between">
           <p>City: </p>
@@ -49,7 +49,7 @@ const FirstSideNav = () => {
           <p>24 Year's</p>
         </div>
       </div>
-      <hr className="w-72 mx-auto my-3" />
+      <hr className="w-full lg:w-60 mx-auto my-3" />
 
       <div className="p-4">
         <h1 className="text-sm md:text-lg p-2 font-bold">Language</h1>
@@ -90,7 +90,7 @@ const FirstSideNav = () => {
           </p>
         </div>
       </div>
-      <hr className="w-72 mx-auto my-3" />
+      <hr className="w-full lg:w-60 mx-auto my-3" />
 
       <div className="p-4">
         <h1 className="text-sm md:text-lg p-2 font-bold">Skill</h1>
@@ -143,7 +143,7 @@ const FirstSideNav = () => {
           <Line percent={65} strokeWidth={2} strokeColor="#f46258" />
         </div>
       </div>
-      <hr className="w-72 mx-auto my-3" />
+      <hr className="w-full lg:w-60 mx-auto my-3" />
 
       <div className="p-4">
         <h1 className="text-sm md:text-lg p-2 font-bold">Knowledge</h1>
@@ -184,7 +184,7 @@ const FirstSideNav = () => {
         </div>
       </div>
 
-      <hr className="w-72 mx-auto my-3" />
+      <hr className="w-full lg:w-60 mx-auto my-3" />
 
       <div>
         <a
